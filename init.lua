@@ -648,7 +648,8 @@ require('lazy').setup({
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`
     -- 'folke/tokyonight.nvim',
     -- 'tomasiser/vim-code-dark',
-    'rebelot/kanagawa.nvim',
+    -- 'rebelot/kanagawa.nvim',
+    'tanvirtin/monokai.nvim',
     -- 'projekt0n/github-nvim-theme',
 
     priority = 1000, -- make sure to load this before all the other start plugins
@@ -659,7 +660,8 @@ require('lazy').setup({
 
       -- vim.cmd.colorscheme 'tokyonight-night'
       -- vim.cmd.colorscheme 'codedark'
-      vim.cmd.colorscheme 'kanagawa'
+      -- vim.cmd.colorscheme 'kanagawa'
+      vim.cmd.colorscheme 'monokai_pro'
       -- vim.cmd.colorscheme 'github_dark'
 
       -- You can configure highlights by doing something like
